@@ -10,6 +10,7 @@
 
 <script>
 export default {
+  name: 'clock',
   data() {
     return {
       hour: 0,
@@ -31,6 +32,7 @@ export default {
     },
   },
   created() {
+    document.title = '新手 JS 地下城 2F - 時鐘';
     let vm = this;
     setInterval(function() {
       let time = new Date();
@@ -49,7 +51,6 @@ export default {
     height: 98vh;
     align-items: center;
     justify-content: center;
-    background: #F0F0F0;
   }
   .clock {
     background: url('src/clock-bg.svg');
