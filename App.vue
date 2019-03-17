@@ -80,7 +80,7 @@ export default {
       width: 14px;
       height: 126px;
       position: absolute;
-      top: calc(50% + 1px);
+      top: calc(50%);
       left: calc(50% - 7px);
       transform-origin: top;
       transform: rotate(-180deg);
